@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Notification Settings"
+        android:key="title">
+
+        <CheckBoxPreference
+            android:title="Enable Notifications"
+            android:key="notiCheckBox"
+            android:summary="Enable notificaions at 30 days, 1 week, and 1 day before release day."
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
